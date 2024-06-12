@@ -1,5 +1,5 @@
-# Metacraft-Assesment
-This repository contains the Solidity smart contract for my MetaCraft assessment. The smart contract implements a basic token system with functionalities for minting and burning tokens.
+# Metacraft-Solidity-Assesment
+This repository contains the Solidity smart contract for my Metacraft Assessment. The smart contract implements a basic token system with functionalities for minting and burning tokens.
 # Details
 1. **Public Variables**:
 * TokenName: Stores the name of the token.
@@ -10,8 +10,8 @@ This repository contains the Solidity smart contract for my MetaCraft assessment
 * balances: Maps addresses to their corresponding token balances.
 
 3. **Functions**:
-* mint(address, value): Increases the total supply by the specified value and increases the balance of the specified address.
-* burn(address, value): Decreases the total supply by the specified value and decreases the balance of the specified address.
+* mint: Increases the total supply by the specified value and increases the balance of the specified address.
+* burn: Decreases the total supply by the specified value and decreases the balance of the specified address.
  This function includes conditionals to ensure the balance of the account is greater than or equal to the amount to be burned.
 # Getting Started
 ### Executing Program
@@ -21,4 +21,4 @@ This repository contains the Solidity smart contract for my MetaCraft assessment
 # Author
 Riya Verma
 # License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details.
